@@ -1,0 +1,16 @@
+export const homeObjOne = { 
+    id:'about',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: true,
+    topLine: 'Lorem Ipsum',
+    headline: 'Lorem ipsum dolor sit amet',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    buttonLabel: 'Get started',
+    imgStart: false,
+    img: require('../images/car.png'),
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false,
+}
