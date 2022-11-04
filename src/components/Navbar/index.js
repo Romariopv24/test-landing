@@ -38,7 +38,7 @@ function Navbar({ toggle }) {
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                    <NavBtnLink to='/sigin'>Sing in</NavBtnLink>
+                    <NavBtnLink to='/signin'>Sing in</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>    

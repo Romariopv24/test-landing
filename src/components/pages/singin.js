@@ -1,8 +1,15 @@
 import React from 'react'
+import Navbar from '../Navbar'
+
 
 function SigninPage() {
+
+
   return (
-    <div>SinginPageasdsadsd</div>
+    <>
+    <Navbar />
+    <p>Sign </p>
+    </>
   )
 }
 

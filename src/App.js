@@ -8,6 +8,7 @@ function App() {
   return (
     <Router>
       <Route path="/" element={Home} />
+      <Navbar />
       <Route path='/signin' element={SigninPage} />
     </Router>
   );
