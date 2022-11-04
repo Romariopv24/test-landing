@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Outlet } from 'react-router-dom';
 import HeroSection from '../HeroSection';
 import InfoSection from '../infoSection';
 import { homeObjOne, homeObjThree, homeObjTwo } from '../infoSection/Data';
@@ -22,6 +23,7 @@ export const Home = () => {
         <InfoSection {...homeObjTwo}/>
         <Services />
         <InfoSection {...homeObjThree}/>
+        
     </>
   )
 }
