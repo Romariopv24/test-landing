@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const InfoContainer = styled.div`
     color: #fff;
-      height: 1200px;
+    
     background: ${({lightBg}) => (lightBg ? '#010606' : '#f9f9f9')};
 
 
     @media screen and (max-width: 768px) { 
         padding: 100px 0;
     }
+
+    
 `
 
 export const InfoWrapper = styled.div`
@@ -21,6 +23,7 @@ export const InfoWrapper = styled.div`
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+    padding-left:45px;
 `
 
 export const InfoRow = styled.div`
@@ -33,6 +36,7 @@ export const InfoRow = styled.div`
         grid-template-areas: ${(imgStart) => (imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`)}
     }
 
+   
 `
 
 export const Column1 = styled.div`
@@ -81,7 +85,7 @@ export const Subtitle = styled.p`
     margin-bottom: 35px;
     font-size: 20px;
     line-height: 24px;
-    color: ${(darkText) => (darkText ? '#fff' : '#010606')};
+    color: ${({darkText}) => (darkText ? '#fff' : '#010606')};
 `
 
 export const BtnWrap = styled.div`
@@ -95,7 +99,7 @@ export const ImgWrap = styled.div`
 `
 
 export const Img = styled.img`
-    width: 100%;
+    width: 80%;
     margin: 0 0 10px 0;
     padding-right: 0;
     margin-bottom:120px;

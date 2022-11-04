@@ -26,7 +26,7 @@ function HeroSection() {
         </HeroBg>
         <HeroContent>
         <HeroH1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</HeroH1>
-        <HeroP> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..  
+        <HeroP> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
         </HeroP>
         <HeroBtnWrapper>
             <Button to="singup" 

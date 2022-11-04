@@ -49,7 +49,7 @@ function InfoSection({
                             smooth={true}
                             duration={500}
                             spy={true}
-                            exacto="true"                            exact="true"
+                            exact="true"       
                             offset={-80}
                             >{buttonLabel} </Button>
                         </BtnWrap>
