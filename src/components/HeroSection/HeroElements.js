@@ -31,13 +31,13 @@ export const HeroBg = styled.div`
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 10%;
     overflow: hidden;
 `
 
 export const BlackBg = styled.div`
     width: 100%;
-    height: 100%;
+    height: 1000%;
     -o-object-fit:cover;
     object-fit:cover;
     background: #010606;
